@@ -64,3 +64,11 @@
     nonstandard_style,
     rust_2018_idioms
 )]
+
+// Re-export the `image` crate. If the `no-reexport` feature is disabled
+#[cfg(not(feature = "no-reexport"))]
+pub use image;
+
+mod assets;
+mod builder;
+pub use builder::build_megamind_meme;

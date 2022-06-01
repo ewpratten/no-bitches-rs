@@ -1,9 +1,9 @@
-# <repo_name>
-[![Crates.io](https://img.shields.io/crates/v/<crate_name>)](https://crates.io/crates/<crate_name>) 
-[![Docs.rs](https://docs.rs/<crate_name>/badge.svg)](https://docs.rs/<crate_name>) 
-[![Build](https://github.com/Ewpratten/<repo_name>/actions/workflows/build.yml/badge.svg)](https://github.com/Ewpratten/<repo_name>/actions/workflows/build.yml)
-[![Clippy](https://github.com/Ewpratten/<repo_name>/actions/workflows/clippy.yml/badge.svg)](https://github.com/Ewpratten/<repo_name>/actions/workflows/clippy.yml)
-[![Audit](https://github.com/Ewpratten/<repo_name>/actions/workflows/audit.yml/badge.svg)](https://github.com/Ewpratten/<repo_name>/actions/workflows/audit.yml)
+# no-bitches-rs
+[![Crates.io](https://img.shields.io/crates/v/no-bitches)](https://crates.io/crates/no-bitches) 
+[![Docs.rs](https://docs.rs/no-bitches/badge.svg)](https://docs.rs/no-bitches) 
+[![Build](https://github.com/Ewpratten/no-bitches-rs/actions/workflows/build.yml/badge.svg)](https://github.com/Ewpratten/no-bitches-rs/actions/workflows/build.yml)
+[![Clippy](https://github.com/Ewpratten/no-bitches-rs/actions/workflows/clippy.yml/badge.svg)](https://github.com/Ewpratten/no-bitches-rs/actions/workflows/clippy.yml)
+[![Audit](https://github.com/Ewpratten/no-bitches-rs/actions/workflows/audit.yml/badge.svg)](https://github.com/Ewpratten/no-bitches-rs/actions/workflows/audit.yml)
 
 
 repo description
@@ -13,5 +13,5 @@ repo description
 This crate can be installed via `cargo` with:
 
 ```sh
-cargo install <crate_name>
+cargo install no-bitches
 ```
