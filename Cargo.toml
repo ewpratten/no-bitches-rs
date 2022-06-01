@@ -9,7 +9,7 @@ readme = "README.md"
 homepage = "https://github.com/ewpratten/no-bitches-rs"
 repository = "https://github.com/ewpratten/no-bitches-rs"
 license = "GPL-3.0"
-keywords = ["megamind", "meme", "image", "image generation", "generative"]
+keywords = ["megamind", "meme", "image", "image-generation", "generative"]
 categories = ["multimedia::images"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
