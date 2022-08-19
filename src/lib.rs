@@ -65,8 +65,7 @@
     rust_2018_idioms
 )]
 
-// Explaining the `no-reexport` feature real quick here in the docs might be nice - Mojo
-/// Re-export the `image` crate. If the `no-reexport` feature is disabled
+// Re-export the `image` crate. If the `no-reexport` feature is disabled
 #[cfg(not(feature = "no-reexport"))]
 pub use image;
 
