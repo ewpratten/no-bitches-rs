@@ -9,7 +9,7 @@ use crate::assets::Assets;
 
 /// Given some text, builds a megamind meme image.
 ///
-///# Example
+///# Examples
 ///```rust
 ///use no_bitches::build_megamind_meme;
 ///
