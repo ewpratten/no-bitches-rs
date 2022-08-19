@@ -9,6 +9,8 @@ use crate::assets::Assets;
 
 /// Given some text, builds a megamind meme image.
 ///
+/// Optionally given an f32, sets text font size.
+///
 ///# Examples
 ///```rust
 ///use no_bitches::build_megamind_meme;
