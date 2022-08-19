@@ -8,6 +8,17 @@ use rusttype::{Font, Scale};
 use crate::assets::Assets;
 
 /// Given some text, builds a megamind meme image.
+///
+///# Example
+///```rust
+///use no_bitches::build_megamind_meme;
+///
+///let meme = build_megamind_meme("No Unsafe Code?", None);
+///meme.save("./meme.png").unwrap();
+///
+///let font_meme = build_megamind_meme("No Font Size?", Some(42_f32));
+///font_meme.save("./meme.png").unwrap();
+///```
 pub fn build_megamind_meme(image_text: &str, font_size: Option<f32>) -> RgbaImage {
     // Load the base image
     let base_image = {
