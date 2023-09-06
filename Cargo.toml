@@ -15,7 +15,7 @@ categories = ["multimedia::images"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rust-embed = "^6.2.0"
+rust-embed = "^8.0.0"
 imageproc = "^0.23.0"
 image = "^0.24.2"
 rusttype = "^0.9.2"
